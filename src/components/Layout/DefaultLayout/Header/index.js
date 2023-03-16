@@ -13,6 +13,7 @@ import image from "~/assets/images";
 import styles from "./Header.module.scss";
 import { useEffect, useState } from "react";
 import AccountItem from "~/components/AccountItem";
+import Button from "~/components/Button";
 
 const cx = classNames.bind(styles);
 
@@ -62,7 +63,15 @@ function Header() {
             </Tippy>
           </div>
         </Tippy>
-        <div className={cx("action")}></div>
+        <div className={cx("action")}>
+          <Button text> Update</Button>
+          <Button primary href="https://www.youtube.com">
+            Log in
+          </Button>
+          {/* <Button rounded to="get-app">
+            Get app
+          </Button> */}
+        </div>
       </div>
     </header>
   );

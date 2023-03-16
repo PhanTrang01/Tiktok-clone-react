@@ -12,7 +12,7 @@
 .inner {
   height: 100%;
   width: var(--default-layout-width, 1150px);
-  background-color: rgb(213, 239, 239);
+  background-color: rgb(255, 255, 255);
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -28,7 +28,7 @@
   position: relative;
   height: var(--searcch-height);
   padding-left: 16px;
-  background-color: rgb(187, 213, 207);
+  background-color: rgb(237, 244, 242);
   border-radius: var(--search-boder-radius);
   border: solid 1.5px rgb(187, 213, 207);
 
@@ -79,13 +79,13 @@
   height: 100%;
   font-size: 1.2rem;
   color: #535353;
-  background-color: transparent;
+  background-color: rgb(237, 244, 242);
   border-top-right-radius: var(--search-boder-radius);
   border-bottom-right-radius: var(--search-boder-radius);
 
   &:hover {
     cursor: pointer;
-    background-color: #9bb2ad;
+    background-color: #e5edeb;
   }
 
   &:active {
